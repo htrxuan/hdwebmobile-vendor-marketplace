@@ -107,6 +107,7 @@ final class HDVM_Hub
         $plugins = array(
             array('name' => 'Abandoned Cart Recovery', 'file' => 'hdwebmobile-abandoned-cart-recovery/hdwebmobile-abandoned-cart-recovery.php', 'description' => 'Recover lost sales with automatic cart-recovery emails.'),
             array('name' => 'Back In Stock & Waitlist', 'file' => 'hdwebmobile-back-in-stock-waitlist/hdwebmobile-back-in-stock-waitlist.php', 'description' => 'Notify customers the moment an out-of-stock product is back.'),
+            array('name' => 'Booking & Appointments', 'file' => 'hdwebmobile-booking-appointments/hdwebmobile-booking-appointments.php', 'description' => 'Sell bookable services and appointments -- a booking\'s owner is set once, server-side, at purchase and never accepted from any later request.'),
             array('name' => 'Checkout Delivery Scheduler', 'file' => 'hdwebmobile-checkout-delivery-scheduler/hdwebmobile-checkout-delivery-scheduler.php', 'description' => 'Let customers pick a delivery date and time slot at checkout.'),
             array('name' => 'Formula Pricing', 'file' => 'hdwebmobile-formula-pricing/hdwebmobile-formula-pricing.php', 'description' => 'Price products from customer-entered numbers via a safe formula -- no eval().'),
             array('name' => 'Frequently Bought Together', 'file' => 'hdwebmobile-frequently-bought-together/hdwebmobile-frequently-bought-together.php', 'description' => 'An Amazon-style widget that adds several related products in one click.'),
